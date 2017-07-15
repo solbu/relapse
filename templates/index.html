@@ -12,11 +12,11 @@
       <article>
       <h1><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a></h1>
       
-      {{ article.content }}
-      
       <p class="info">
       {% include 'block_article_info.html' %}
       </p>
+      
+      {{ article.content }}
       
       {% if DISQUS_SITENAME %}
         <aside id="comment-count"><p>
@@ -35,15 +35,15 @@
       <article>
       <h1><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark">{{ article.title }}</a></h1>
       
+      <p class="info">
+      {% include 'block_article_info.html' %}
+      </p>
+      
       {{ article.summary }}
       
       {% if article.content|length > article.summary|length %}
         <p><a class="btn btn-mini btn-primary" href="{{ SITEURL }}/{{ article.url }}">Read more</a></p>
       {% endif %}
-      
-      <p class="info">
-      {% include 'block_article_info.html' %}
-      </p>
       
       {% if DISQUS_SITENAME %}
         <aside id="comment-count"><p>

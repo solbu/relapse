@@ -6,11 +6,11 @@
 <article>
 <h1>{{ article.title }}</h1>
 
-{{ article.content }}
-
 <p class="info">
 {% include 'block_article_info.html' %}
 </p>
+
+{{ article.content }}
 
 {% if article.photo_gallery %}
 <div class="gallery">
