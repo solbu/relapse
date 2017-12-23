@@ -2,7 +2,9 @@
 
 A [Pelican](http://pelican.notmyidea.org) theme using [Bootstrap](http://twitter.github.com/bootstrap).
 
-[source @ github](https://github.com/wamonite/relapse)
+This is a norwegian translation of the original fork, with changes used on Solbu's website
+
+[Original source @ github](https://github.com/wamonite/relapse)
 
 ## Features
 
