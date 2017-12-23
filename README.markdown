@@ -17,6 +17,7 @@ A [Pelican](http://pelican.notmyidea.org) theme using [Bootstrap](http://twitter
         LINKS
         SOCIAL
         MENUITEMS
+        ARCHIVE_PAGE (true/false)
 
 * Pages can be ordered by including an ``order`` page attribute (1 based index).
 * Add a meta tag description to the index page with ``SITEDESCRIPTION``.
